@@ -1,6 +1,8 @@
 language: java
 sudo: false
 dist: trusty
-jdk: oraclejdk8
+jdk:
+  - oraclejdk8
+  - openjdk11
 script:
   - ./mvnw verify
